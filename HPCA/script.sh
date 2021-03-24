@@ -20,7 +20,7 @@ CMD=HPCA/qsort
 
 SIZE=(3 2 3 3 3 2 3 3 2 2) # Sizes in reverse
 TOTAL=11664
-for (( i=0; i<1000; i++ ))
+for (( i=7500; i<8000; i++ ))
 do
     args=""
     valCpy=$i
